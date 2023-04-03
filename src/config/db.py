@@ -2,8 +2,8 @@
 
 from sqlalchemy.orm import sessionmaker # Para criar sessão com o banco de dados
 from sqlalchemy import create_engine # Para criar conexão com o banco de dados
-from src.models.Base import Base # Classe base para criar as tabelas
-from src.models.Game import Game # Modelo de tabela de jogos
+from models.Base import Base # Classe base para criar as tabelas
+from models.Position import Position # Modelo de tabela de jogos
 
 # Cria conexão com o banco de dados db.db
 engine = create_engine('sqlite:///db.db')
